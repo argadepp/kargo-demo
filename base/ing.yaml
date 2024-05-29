@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: demo.localhost
+  - host: prod.localhost
     http:
       paths:
       - backend:
