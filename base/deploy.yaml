@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx 
-        image: public.ecr.aws/nginx/nginx:placeholder
+        image: ghcr.io/argadepp/web:0.0.2
         volumeMounts:
         - name: content
           mountPath: /usr/share/nginx/html
