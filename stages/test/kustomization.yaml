@@ -15,4 +15,4 @@ patches:
     name: kargo-demo
 images:
 - name: ghcr.io/argadepp/web
-  newTag: 0.0.2
+  newTag: 0.0.3
